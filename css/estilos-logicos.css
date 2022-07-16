@@ -198,6 +198,39 @@ blockquote p{
 	color: var(--white20);
 }
 
+.footer{
+	background: #FFFFFF;
+	
+	
+	}
+.footer .footer-container{
+	text-align: center;
+	padding-block-start: 48px;
+	padding-inline: 42px;
+	
+
+}
+.footer-container p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	padding-block: 0;
+	color:var(--white10);
+	margin: 0;
+	display: inline-block;
+	
+}
+.footer-redes-sociales a img{
+	width: 24px;
+	height:24px;
+	margin-block-start: 19px;
+	margin-block-end: 61px;
+	margin-inline-start: 22px;
+
+}
+
 
 @media screen and (min-width: 1366px) {
 
@@ -226,4 +259,14 @@ blockquote p{
 		inset-inline-start: -208px;
 		inline-size: 188px;
 		}	
+
+	.footer .footer-container{
+		text-align: center;
+		padding-block-start: 48px;
+	}
+	.footer-container p {
+		font-family: 'Nunito';
+		font-size: 32px;
+		line-height: 44px;	
+	}
 }
